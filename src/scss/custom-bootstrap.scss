@@ -1,0 +1,18 @@
+// Thematização dos componentes do Bootstrap.
+// Cores, fontes, espaçamentos, etc...
+@import 'custom-theme';
+
+// Recursos obrigatórios.
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+// Recursos opcionais.
+@import '~bootstrap/scss/utilities';
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/grid";
+@import '~bootstrap/scss/transitions';
+
+// Importação de componentes entram aqui...

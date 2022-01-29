@@ -1,0 +1,38 @@
+{
+  "name": "ctd-summer-week__front-end-i",
+  "version": "1.0.0",
+  "description": "Código fonte das palestras ministradas no CTD Summer Week 2022 de Front end I.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "prod": "npx webpack --mode production",
+    "dev": "npx webpack-dev-server --mode development --open --live-reload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/wssantanna/ctd-summer-week__front-end-i.git"
+  },
+  "author": "Willian Sant Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/wssantanna/ctd-summer-week__front-end-i/issues"
+  },
+  "homepage": "https://gitlab.com/wssantanna/ctd-summer-week__front-end-i#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.2",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  }
+}
