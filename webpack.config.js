@@ -4,7 +4,7 @@ const path = require('path');
 
 // Variaveis do projeto
 const DESTINO_DO_CODIGO_FONTE_DA_PRODUCAO = path.resolve( __dirname, 'public' );
-const DESTINO_DO_CODIGO_FONTE_DE_DESENVOLIMENTO = path.resolve( __dirname, '/src/app.js' );
+const DESTINO_DO_CODIGO_FONTE_DE_DESENVOLIMENTO = path.resolve( __dirname, './src/app.js' );
 const DESTINO_DO_TEMPLATE_HTML = './src/html/index.html';
 const PORTA_DO_SERVIDOR = 1234;
 
