@@ -1,6 +1,5 @@
 # Reprodução do site da Digital House Brasil
 * HTML
-* CSS
 * Booststrap
 
 -------------------------------------------------------------
